@@ -1,1 +1,17 @@
-p span  { background-color: red; }
+* {
+  color: brown;
+}
+
+li {
+  color: fuchsia;
+}
+
+
+.luokka{
+  color: blue;
+}
+#puna {
+  color: red;
+}
+
+
