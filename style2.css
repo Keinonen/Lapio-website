@@ -1,25 +1,40 @@
 p {
-  margin: 0px;
+  top: 25%;
+  margin-left: 15px;
+  text-align: center;
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: blue;
   position: absolute;
 }
+
 .first-box-container {
-  width: 200px;
-  height: 100px;
+  border-color: green;
+  border-width:5px;
+  border-style:solid;
+  width: 225px;
+  height: 150px;
   background-color: red;
   position: relative;
 }
 
 .second-box-container {
-  width: 200px;
-  height: 100px;
+  border-color: red;
+  border-width:5px;
+  border-style:solid;
+  width: 225px;
+  height: 150px;
   background-color: yellow;
   left: 250px;
-  position: relative;
+  position: absolute;
 }
 
 .third-box-container {
-  width: 200px;
-  height: 100px;
+  border-color: yellow;
+  border-width:5px;
+  border-style:solid;
+  width: 225px;
+  height: 150px;
   left: 250px;
   background-color: green;
   position: relative;
